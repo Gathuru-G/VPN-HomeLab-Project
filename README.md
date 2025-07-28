@@ -43,7 +43,7 @@ This project demonstrates how I set up a secure VPN tunnel using WireGuard and a
 ![Ping](SuccessfulPing-22.png)
 
 ### AWS EC2 Instance
-![EC2](AWS-Instance.conf.png)
+![EC2](AWS-Instance-conf.png)
 
 ### WireGuard Configuration
 ![WireGuard](WireGuardConf.png)
