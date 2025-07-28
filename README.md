@@ -72,5 +72,9 @@ All IPs and sensitive values have been blurred or replaced.
 ## 📘 Documentation  
 [🔗 VPN Setup Process](docs/PROCESS)
 
-[LinkedIn Profile](https://www.linkedin.com/in/george-gathuru-010a01319)
+---
+## 👨‍💻 About the Author
+
+I'm George Gathuru, a U.S. Army Veteran transitioning into cybersecurity and IT. I’m passionate about hands-on learning and building practical home lab projects like this VPN tunnel using AWS and WireGuard. [Connect with me on LinkedIn](https://www.linkedin.com/in/george-gathuru-010a01319)
+
 
