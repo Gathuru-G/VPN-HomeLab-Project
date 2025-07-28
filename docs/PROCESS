@@ -1,0 +1,58 @@
+# 🌐 WireGuard VPN + AWS Homelab Access
+
+## 📌 Objective  
+Establish a secure VPN tunnel using WireGuard on an AWS VPS, enabling remote access to a personal homelab from any location worldwide.
+
+---
+
+## 🛠️ Deployment Steps
+
+### 1. 🧱 AWS VPS Setup  
+- Provisioned Ubuntu-based EC2 instance  
+- Opened `51820/UDP` in AWS Security Groups for WireGuard  
+- Enabled IP forwarding: `net.ipv4.ip_forward=1` in `/etc/sysctl.conf`  
+
+### 2. 🔐 WireGuard Installation & Configuration  
+- Installed WireGuard on:
+  - AWS VPS
+  - Windows desktop and laptop  
+- Generated public/private key pairs  
+- Created `wg0.conf` files for server and clients  
+- Configured internal VPN IPs  
+- Enabled persistent keepalive (`PersistentKeepalive = 25`)  
+
+### 3. 🔄 IP Routing & NAT  
+- Applied `iptables` NAT rules for traffic masquerading  
+- Ensured connectivity from VPN client to homelab subnets  
+
+---
+
+## 🧪 Verification  
+- Tested handshake using `wg` command and `ping`  
+- Successfully initiated RDP sessions to homelab hosts  
+- Verified access to Domain Controller, file servers, and services
+
+---
+
+## ⚠️ Challenges & Fixes
+
+| Issue | Description | Resolution |
+|------|-------------|------------|
+| 🖥️ RDP Access | Initial failures due to network binding issues | Aligned subnet ranges & enabled RDP on target devices |
+| 🔥 Firewall Conflicts | RDP blocked by AWS SG or local firewall | Configured inbound `51820/UDP`, allowed ICMP/RDP in WireGuard and OS |
+| 🧭 DNS Resolution | Couldn’t access machines by hostname | Added static `hosts` mappings and enabled local DNS forwarding |
+
+---
+
+## 🔍 Key Learnings
+
+- Solidified VPN fundamentals with WireGuard and NAT
+- Gained experience with AWS security, routing, and subnet controls
+- Learned to troubleshoot Windows firewall and RDP access remotely
+- Explored scalable homelab architecture for future services
+
+---
+
+## 📘 Next Steps
+  
+- Simulate Active Directory GPO deployment and auditing tools  
