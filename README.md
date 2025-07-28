@@ -50,6 +50,11 @@ This project demonstrates how I set up a secure VPN tunnel using WireGuard and a
 ## 📡 IP Configuration Example
 
 ![IPConfig Output](Ipconfig-VPS.png)
+
+## 🔒 WireGuard VPN Setup
+
+![VPN Tunnel Diagram](VPN-Tunnel-Illustration.png)
+
 ---
 
 ## 🧾 Reflection
