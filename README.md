@@ -30,7 +30,7 @@ This project demonstrates how I set up a secure VPN tunnel using WireGuard and a
 ## Screenshots
 
 ### Homelab Setup
-![Homelab](screenshots/HomeLab-setup-diagram.png)
+![Homelab](HomeLab-setup-diagram.png)
 
 ### Ping Success
 ![Ping](SuccessfulPing-22.png)
