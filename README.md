@@ -23,6 +23,13 @@ This project demonstrates how I set up a secure VPN tunnel using WireGuard and a
 4. Enabled IP forwarding and routing
 5. Verified VPN tunnel and tested access to Homelab via ping and RDP
 
+## 🧠 Skills Demonstrated
+- VPN and encryption fundamentals (WireGuard)
+- Cloud infrastructure setup (AWS EC2)
+- Linux server administration (Ubuntu)
+- Remote network access and routing
+- Windows RDP configuration and testing
+- Network diagramming and documentation
 ---
 
 ## 🖼️ Screenshots
@@ -43,6 +50,10 @@ This project demonstrates how I set up a secure VPN tunnel using WireGuard and a
 ## 📡 IP Configuration Example
 
 ![IPConfig Output](Ipconfig-VPS.png)
+---
+
+## 🧾 Reflection
+This project taught me how to troubleshoot remote connectivity issues, configure firewall rules, and securely access my Homelab resources. It reinforced practical IT support and networking concepts I studied in my coursework.
 
 
 All IPs and sensitive values have been blurred or replaced.
@@ -55,4 +66,6 @@ All IPs and sensitive values have been blurred or replaced.
 
 ## 📘 Documentation  
 [🔗 VPN Setup Process](docs/PROCESS)
+
+[LinkedIn Profile](https://www.linkedin.com/in/george-gathuru-010a01319)
 
